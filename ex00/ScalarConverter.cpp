@@ -11,7 +11,8 @@ ScalarConverter::ScalarConverter(const ScalarConverter& src)
 
 ScalarConverter& ScalarConverter::operator=(const ScalarConverter& src)
 {
-    return *this;
+   (void)src;
+   return *this;
 }
 
 ScalarConverter::~ScalarConverter(void)
